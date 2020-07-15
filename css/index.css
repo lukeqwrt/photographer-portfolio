@@ -1638,8 +1638,8 @@ nav a:hover {
 /* section 6 */
 .section6 {
     height: 60vh;
- /*   background: rgb(243, 243, 243);*/
- background: pink;
+    background: rgb(243, 243, 243);
+
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 
     /* layout */
@@ -1969,8 +1969,8 @@ nav a:hover {
 /* section 6 */
 .section6 {
     height: 60vh;
- /*   background: rgb(243, 243, 243);*/
- background: pink;
+   background: rgb(243, 243, 243);
+
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 
     /* layout */
@@ -2018,6 +2018,34 @@ nav a:hover {
 }
 /* media queries tablet*/
 @media (max-width: 768px) and (min-width: 468px) {
+    .section1 .content-home {
+        height: 380px;
+        width: 390px;
+       position: absolute;
+       top: 30%;
+       left: 10%;
+       display: flex;
+       justify-content: space-evenly;
+       flex-direction: column;
+       flex-wrap: nowrap;
+    
+    }
+    
+    .content-home h3 {
+        color: white;
+        font-size: 47px;
+        font-family: fantasy;
+        font-family: 'Roboto', sans-serif;
+        font-weight: unset;
+    }
+
+    .content-home .myp {
+        width: 100%;
+    }
+
+    .content-home .myp p{
+        width: 100%;
+    }
     
     .alis {
         visibility: visible;
@@ -2042,7 +2070,7 @@ nav a:hover {
     .bg-container {
        position: fixed;
        height: 100vh;
-       width: 100%;
+
        background-color: rgba(0, 0, 0, 0.6);
        display: flex;
         justify-content: flex-end;
@@ -2557,16 +2585,36 @@ nav a:hover {
 
 }
 
-@media (max-width: 610px) and (min-width: 468px) {
-    .content-home .myp p{
-        width: 90%;
-    }
-}
 
 @media (max-width: 467px){
+    .section1 .content-home {
+      
+        height: 390px;
+        width: 300px;
+       position: absolute;
+       top: 26%;
+       left: 5%;
+       display: flex;
+       justify-content: space-evenly;
+       flex-direction: column;
+       flex-wrap: nowrap;
+    
+    }
+    
+    .content-home h3 {
+        color: white;
+        font-size: 47px;
+        font-family: fantasy;
+        font-family: 'Roboto', sans-serif;
+        font-weight: unset;
+    }
+
+    .content-home .myp {
+        width: 100%;
+    }
 
     .content-home .myp p{
-        width: 57%;
+        width: 100%;
     }
     .alis {
         visibility: visible;
@@ -2724,12 +2772,13 @@ nav a:hover {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         justify-items: start;
+        row-gap: 20px;
         
     
     }
     .container-ser .events {
-        height: 150px;
-        width: 350px;
+        height: 183px;
+        width: 320px;
         display: grid;
         grid-template-columns: 17% 1fr;
         grid-template-rows:30% 1fr;
@@ -2741,8 +2790,8 @@ nav a:hover {
 
     .container-ser .wedding{
   
-        height: 150px;
-        width: 350px;
+        height: 183px;
+        width: 320px;
         display: grid;
         grid-template-columns: 17% 1fr;
         grid-template-rows:30% 1fr;
@@ -2754,8 +2803,8 @@ nav a:hover {
 
     .container-ser .conferences{
     
-        height: 150px;
-        width: 350px;
+        height: 183px;
+        width: 320px;
         display: grid;
         grid-template-columns: 17% 1fr;
         grid-template-rows:30% 1fr;
@@ -2766,8 +2815,8 @@ nav a:hover {
     }
     .container-ser .culture{
  
-        height: 150px;
-        width: 350px;
+        height: 183px;
+        width: 320px;
         display: grid;
         grid-template-columns: 17% 1fr;
         grid-template-rows:30% 1fr;
