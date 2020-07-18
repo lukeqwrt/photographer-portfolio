@@ -1670,7 +1670,7 @@ nav a:hover {
 @media (max-width: 953px) and (min-width: 768px) {
 
 
-    /* section 5 */
+/* section 5 */
 .section5 {
     height: 200vh;
     width: 100%;
@@ -2758,6 +2758,20 @@ nav a:hover {
         opacity: 0;
         transition: 0.3s;
     }
+    /* section 2 */
+    .section2 {
+        height: 134vh;
+    
+       background-color: rgb(245, 245, 245);
+    
+        /* layout */
+        display: grid;
+        grid-template-rows: 15% 1fr;
+        justify-items: center;
+        align-items: center;
+        grid-gap: 80px;
+    }
+    
 
     .section2 {
         height: 180vh;
@@ -2771,7 +2785,8 @@ nav a:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        justify-items: start;
+        justify-items: center;
+        align-items: center;
         row-gap: 20px;
         
     
@@ -2781,7 +2796,7 @@ nav a:hover {
         width: 320px;
         display: grid;
         grid-template-columns: 17% 1fr;
-        grid-template-rows:30% 1fr;
+        grid-template-rows:22% 1fr;
         row-gap: 5px;
         column-gap: 30px;
  
@@ -2794,7 +2809,7 @@ nav a:hover {
         width: 320px;
         display: grid;
         grid-template-columns: 17% 1fr;
-        grid-template-rows:30% 1fr;
+        grid-template-rows:22% 1fr;
         row-gap: 5px;
         column-gap: 30px;
  
@@ -2807,7 +2822,7 @@ nav a:hover {
         width: 320px;
         display: grid;
         grid-template-columns: 17% 1fr;
-        grid-template-rows:30% 1fr;
+        grid-template-rows:22% 1fr;
         row-gap: 5px;
         column-gap: 30px;
  
@@ -2819,16 +2834,17 @@ nav a:hover {
         width: 320px;
         display: grid;
         grid-template-columns: 17% 1fr;
-        grid-template-rows:30% 1fr;
+        grid-template-rows:22% 1fr;
         row-gap: 5px;
         column-gap: 30px;
+       
  
         transition: 0.3s;
     }
     .events .fa-calendar{
         grid-column: 1/2;
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
         color: white;
         font-size: 1.33rem;
         background-color: rgb(231, 188, 77);
@@ -2841,8 +2857,8 @@ nav a:hover {
 
     .wedding .fa-coffee{
         grid-column: 1/2;
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
         color: white;
         font-size: 1.33rem;
         background-color: rgb(231, 188, 77);
@@ -2855,8 +2871,8 @@ nav a:hover {
 
     .conferences .fa-university{
         grid-column: 1/2;
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
         color: white;
         font-size: 1.33rem;
         background-color: rgb(231, 188, 77);
@@ -2869,8 +2885,8 @@ nav a:hover {
 
     .culture .fa-child{
         grid-column: 1/2;
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
         color: white;
         font-size: 1.33rem;
         background-color: rgb(231, 188, 77);
@@ -3118,6 +3134,36 @@ width: 90%;
 
 }
 
+
+/* section 0 */
+.main .section0 {
+    height: 100vh;
+    background: #FAB95B; 
+
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.section0 .title5 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 90%;
+}
+.section0 .allp {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    
+ 
+}
+
+
+
+
  /* section 5 */
  .section5 {
     height: 280vh;
@@ -3214,3 +3260,210 @@ width: 90%;
 
 }
 
+
+@media (max-width: 354px){
+
+    .section1 .content-home {
+        height: 400px;
+        width: 80vw;
+       position: absolute;
+       top: 26%;
+       left: 6%;
+       display: flex;
+       justify-content: space-evenly;
+       flex-direction: column;
+       flex-wrap: nowrap;
+    
+    }
+    
+    .content-home h3 {
+        color: white;
+        font-size: 47px;
+        font-family: fantasy;
+        font-family: 'Roboto', sans-serif;
+        font-weight: unset;
+    }
+
+    .content-home .myp {
+        width: 100%;
+    }
+
+    .section2 {
+        height: 180vh;
+    }
+
+    .container-ser {
+        height: 100%;
+        width: 100%;
+        align-self: flex-start;
+        /* lay-out */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: start;
+        row-gap: 20px;
+        
+    
+    }
+    .container-ser .events {
+        height: 200px;
+        width: 280px;
+        display: grid;
+        grid-template-columns: 17% 1fr;
+        grid-template-rows:24% 1fr;
+        row-gap: 5px;
+        column-gap: 30px;
+       
+ 
+        transition: 0.3s;
+    }
+  
+
+    .container-ser .wedding{
+        height: 200px;
+        width: 280px;
+        display: grid;
+        grid-template-columns: 17% 1fr;
+        grid-template-rows:24% 1fr;
+        row-gap: 5px;
+        column-gap: 30px;
+       
+ 
+        transition: 0.3s;
+    }
+
+    .container-ser .conferences{
+        height: 200px;
+        width: 280px;
+        display: grid;
+        grid-template-columns: 17% 1fr;
+        grid-template-rows:24% 1fr;
+        row-gap: 5px;
+        column-gap: 30px;
+       
+ 
+        transition: 0.3s;
+    }
+    .container-ser .culture{
+ 
+        height: 200px;
+        width: 280px;
+        display: grid;
+        grid-template-columns: 17% 1fr;
+        grid-template-rows:24% 1fr;
+        row-gap: 5px;
+        column-gap: 30px;
+       
+ 
+        transition: 0.3s;
+    }
+    .events .fa-calendar{
+        grid-column: 1/2;
+        height: 50px;
+        width: 50px;
+        color: white;
+        font-size: 1.33rem;
+        background-color: rgb(231, 188, 77);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        transform: translate(25%, 38%);
+    }
+
+    .wedding .fa-coffee{
+        grid-column: 1/2;
+        height: 50px;
+        width: 50px;
+        color: white;
+        font-size: 1.33rem;
+        background-color: rgb(231, 188, 77);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        transform: translate(25%, 38%);
+    }
+
+    .conferences .fa-university{
+        grid-column: 1/2;
+        height: 50px;
+        width: 50px;
+        color: white;
+        font-size: 1.33rem;
+        background-color: rgb(231, 188, 77);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        transform: translate(25%, 38%);
+    }
+
+    .culture .fa-child{
+        grid-column: 1/2;
+        height: 50px;
+        width: 50px;
+        color: white;
+        font-size: 1.33rem;
+        background-color: rgb(231, 188, 77);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 40px;
+        transform: translate(25%, 38%);
+    }
+
+ /* section 5 */
+ .section5 {
+    height: 280vh;
+    width: 100%;
+   background: rgb(248, 248, 248);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+.section5 .blog-container {
+    width: 84vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+   
+}
+
+.section5 .blog-container .blog {
+    margin-bottom: 25px;
+}
+  
+/* section 0 */
+.main .section0 {
+    height: 120vh;
+    background: #FAB95B; 
+
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.section0 .title5 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 90%;
+}
+.section0 .allp {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    
+ 
+}
+
+}
