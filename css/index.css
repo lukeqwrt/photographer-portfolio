@@ -13,7 +13,7 @@ html {
     top: 0;
     width: 100%;
 
- /*   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3); */
+ 
     transition: .2s linear;
     z-index: 3;
 }
@@ -89,6 +89,7 @@ nav a:hover {
     padding: 2px 0px;
     background: #fff;
     transition: 0.3s;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3); 
 }
 
 
@@ -921,46 +922,73 @@ nav a:hover {
 .container1 .pic1 {
     height: 520px;
     width: 100%;
-
+    overflow: hidden;
 }
 
 .container1 .pic1 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.container1 .pic1 img:hover{
+    transform: scale(1.1);
 }
 
 
 
 .container1 .pic2 {
-
     height: 270px;
     width: 100%;
+    overflow: hidden;
 }
+
 
 .container1 .pic2 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.container1 .pic2 img:hover{
+    transform: scale(1.1);
 }
 
-.container1 .pic3 {
 
+.container1 .pic3 {
+    overflow: hidden;
     height: 270px;
     width: 100%;
 }
 .container1 .pic3 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.container1 .pic3 img:hover {
+    transform: scale(1.1);
 }
 
 .container1 .pic4 {
-
     height: 250px;
     width: 100%;
+    overflow: hidden;
 }
 
 .container1 .pic4 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.container1 .pic4 img:hover {
+    transform: scale(1.1);
 }
 
 /* container 2*/
@@ -980,34 +1008,54 @@ nav a:hover {
 .container2 .pic5 {
     height: 340px;
     width: 100%;
-
+    overflow: hidden;
 }
 
 .container2 .pic5 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.container2 .pic5 img:hover{
+    transform: scale(1.1);
 }
 .container2 .pic6 {
     height: 535px;
     width: 100%;
-
+    overflow: hidden;
 }
 
 .container2 .pic6 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
 }
+
+.container2 .pic6 img:hover{
+    transform: scale(1.2);
+}
+
 .container2 .pic7 {
     height: 270px;
     width: 100%;
-
+    overflow: hidden;
 }
 
 .container2 .pic7 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
 }
-
+.container2 .pic7 img:hover{
+    transform: scale(1.2);
+}
 /* container 3 */
 
 .section4 .container3 {
@@ -1025,13 +1073,21 @@ nav a:hover {
 .container3 .pic8 {
     height: 520px;
     width: 100%;
+    overflow: hidden;
 }
 .container3 .pic8 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.container3 .pic8 img:hover {
+    transform: scale(1.2);
 }
 .container3 .pic9 {
-
+    overflow: hidden;
     height: 270px;
     width: 100%;
 }
@@ -1039,9 +1095,16 @@ nav a:hover {
 .container3 .pic9 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.container3 .pic9 img:hover {
+    transform: scale(1.2);
 }
 .container3 .pic10 {
-
+    overflow: hidden;
     height: 520px;
     width: 100%;
 }
@@ -1049,6 +1112,13 @@ nav a:hover {
 .container3 .pic10 img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.container3 .pic10 img:hover{
+    transform: scale(1.2);
 }
 
 /* section 0 */
